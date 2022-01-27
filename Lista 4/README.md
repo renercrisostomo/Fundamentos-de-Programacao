@@ -10,23 +10,19 @@
 
 **Questão 3**
 
- Faça um algoritmo para ler o saldo de 5 clientes. Depois, deverá realizar operações de débito e crédito: lê um crédito aleatório para cada cliente realizar saque (débito qualquer) da conta de cada cliente (saldo_atual = crédito - débito). Também testar se saldo atual é suficiente para realizar o saque, confirmando a operação, caso positivo, e negando a operação, caso negativo, mostrando a mensagem 'Saldo insuficiente'. No final, deverá exibir o saldo atualizado de cada cliente.
-
-**Questão 4**
-
- O sistema do governo quer verificar um grupo de empregados apto para a aposentadoria ou não. Para estar em condições, os seguintes requisitos devem ser satisfeitos: - Ter no mínimo 65 anos de idade e ter trabalhado no mínimo 35 anos é homens ter 60 anos de idade e ter trabalhado 30 anos - mulheres. Com base nessas informações, faça um algoritmo que leia (para 6 empregados): o nome, sexo, ano de nascimento e os anos de contribuições. O programa deverá escrever: nome, idade, sexo e o tempo de trabalho de cada empregado com a mensagem 'Apto para aposentadoria' ou 'Não apto para aposentadoria'.
+ Faça um algoritmo para ler o saldo de 5 clientes. Depois, deverá realizar operações de débito e crédito: lê um crédito aleatório para cada cliente realizar saque (débito qualquer) da conta de cada cliente `saldo_atual = crédito - débito`. Também testar se saldo atual é suficiente para realizar o saque, confirmando a operação, caso positivo, e negando a operação, caso negativo, mostrando a mensagem `Saldo insuficiente`. No final, deverá exibir o saldo atualizado de cada cliente.
 
 **Questão 5**
 
- O sistema do governo quer verificar um grupo de empregados apto para a aposentadoria ou não. Para estar em condições, os seguintes requisitos devem ser satisfeitos: - Ter no mínimo 65 anos de idade e ter trabalhado no mínimo 35 anos é homens ter 60 anos de idade e ter trabalhado 30 anos - mulheres. Com base nessas informações, faça um algoritmo que leia (para 6 empregados): o nome, sexo, ano de nascimento e os anos de contribuições. O programa deverá escrever: nome, idade, sexo e o tempo de trabalho de cada empregado com a mensagem 'Apto para aposentadoria' ou 'Não apto para aposentadoria'.
+ O sistema do governo quer verificar um grupo de empregados apto para a aposentadoria ou não. Para estar em condições, os seguintes requisitos devem ser satisfeitos: - Ter no mínimo 65 anos de idade e ter trabalhado no mínimo 35 anos é homens ter 60 anos de idade e ter trabalhado 30 anos - mulheres. Com base nessas informações, faça um algoritmo que leia (para 6 empregados): o nome, sexo, ano de nascimento e os anos de contribuições. O programa deverá escrever: `nome`, `idade`, `sexo` e o `tempo de trabalho` de cada empregado com a mensagem `Apto para aposentadoria` ou `Não apto para aposentadoria`.
 
 **Questão 6**
 
- Escreva um algoritmo para imprimir os n�meros de 1 (inclusive) a 10 (inclusive) em ordem crescente, e depois, em ordem decrescente.
+ Escreva um algoritmo para imprimir os números de 1 (inclusive) a 10 (inclusive) em ordem crescente, e depois, em ordem decrescente.
 
 **Questão 7**
 
- A prefeitura de uma cidade deseja fazer uma pesquisa para coletar dados sobre o salário e número de filhos de cada habitante. Faça um algoritmo para ler os dados de 5 habitantes e escrever:
+ A prefeitura de uma cidade deseja fazer uma pesquisa para coletar dados sobre o `salário` e `número de filhos` de cada habitante. Faça um algoritmo para ler os dados de 5 habitantes e escrever:
  a) Média de salário da população
  b) Média do número de filhos
  c) Percentual de pessoas com salário menor que R$ 1000,00.
