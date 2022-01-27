@@ -14,7 +14,7 @@
 
 **Questão 4**
 
- Crie um vetor de inteiros para armazenar a sequência Fibonacci até a 20a. posição.
+ Crie um vetor de inteiros para armazenar a sequência Fibonacci até a 20ª posição.
 
 **Questão 5**
 
