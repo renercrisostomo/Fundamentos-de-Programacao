@@ -6,7 +6,7 @@
 
 **Questão 2**
 
- Faça um algoritmo que receba o raio R de uma esfera e calcule o seu volume: V = (4 * Pi * R3)/3.
+ Faça um algoritmo que receba o raio R de uma esfera e calcule o seu volume: `V = (4 * Pi * R3)/3`.
 
 **Questão 3**
 
@@ -26,7 +26,7 @@
 
 **Questão 7**
 
- Escreva um algoritmo para ler um número inteiro e verifique se o número corresponde a um mês válido no calendário. Depois escrever o nome do mês, senão escrever uma mensagem "Mês Inválido".
+ Escreva um algoritmo para ler um número inteiro e verifique se o número corresponde a um mês válido no calendário. Depois escrever o nome do mês, senão escrever uma mensagem `Mês Inválido`.
 
 **Questão 8**
 
@@ -43,12 +43,12 @@ de 9,0 a 10,0 | A
 
  Faça um algoritmo que leia do teclado um caractere c e dois inteiros n1 e n2. Proceda da seguinte forma utilizando uma estrutura de controle:
 
-1. Se o caractere for '+', calcule e imprima a soma n1 + n2.
+1. Se o caractere for `+`, calcule e imprima a soma `n1 + n2`.
 
-2. Se o caractere for '-', calcule e imprima a subtração n1 - n2.
+2. Se o caractere for `-`, calcule e imprima a subtração `n1 - n2`.
 
-3. Se o caractere for '/', calcule e imprima a divisão n1 / n2.
+3. Se o caractere for `/`, calcule e imprima a divisão `n1 / n2`.
 
-4. Se o caractere for '*', calcule e imprima a multiplicação n1 * n2.
+4. Se o caractere for `*`, calcule e imprima a multiplicação `n1 * n2`.
 
-Caso contrário, exiba "Operação Inválida".
+Caso contrário, exiba `Operação Inválida`.

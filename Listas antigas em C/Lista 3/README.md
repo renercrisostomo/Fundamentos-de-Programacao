@@ -6,12 +6,12 @@
 
 **Questão 2**
 
- Fazer um algoritmo para calcular e imprimir o fatorial de um número qualquer fornecido pelo usuário. (lembrando: fatorial de 0! = 1; fatorial de 1! = 1; Fatorial de N! = (N * N-1!);
+ Fazer um algoritmo para calcular e imprimir o fatorial de um número qualquer fornecido pelo usuário. (lembrando: fatorial de 0! = 1; fatorial de 1! = 1; Fatorial de `N! = (N * N-1!)`;
 
 **Questão 3**
 
  A série fibonacci é formada pele seguinte sequência: 1, 1, 2, 3, 5, 8, 13, 13, 21, 34, 55...etc.
-Escreva um algoritmo que gere a serie fibonacci até o 12o termo;
+Escreva um algoritmo que gere a serie fibonacci até o 12º termo;
 
 **Questão 4**
 
@@ -23,7 +23,7 @@ Escreva um algoritmo que gere a serie fibonacci até o 12o termo;
 
 **Questão 6**
 
- Fazer um algoritmo para calcular e imprimir a media aritmética de 10 alunos, tendo como dados de entrada 3 notas semestrais. Depois imprimir situação do aluno que deve obedecer ao seguinte critério: (media maior ou igual a 7, “aprovado”; entre 4 e 6.9, “AF”; menor que 4, “reprovado”), depois imprimir a media geral da turma;
+ Fazer um algoritmo para calcular e imprimir a media aritmética de 10 alunos, tendo como dados de entrada 3 notas semestrais. Depois imprimir situação do aluno que deve obedecer ao seguinte critério: (media maior ou igual a 7, `aprovado`; entre 4 e 6.9, `AF`; menor que 4, `reprovado`), depois imprimir a media geral da turma;
 
 **Questão 7**
 
