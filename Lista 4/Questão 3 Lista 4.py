@@ -1,10 +1,6 @@
 """
 QUESTAO 3 LISTA 4
-Fa�a um algoritmo para ler o saldo de 5 clientes. Depois, dever� realizar opera��es de
-d�bito e cr�dito: l� um cr�dito aleat�rio para cada cliente realizar saque (d�bito qualquer) da
-conta de cada cliente (saldo_atual = cr�dito - d�bito). Tamb�m testar se saldo atual � suficiente para realizar o
-saque, confirmando a opera��o, caso positivo, e negando a opera��o, caso negativo, mostrando a mensagem 'Saldo insuficiente'.
-No final, dever� exibir o saldo atualizado de cada cliente.
+Faça um algoritmo para ler o saldo de 5 clientes. Depois, deverá realizar operações de débito e crédito: lê um crédito aleatório para cada cliente realizar saque (débito qualquer) da conta de cada cliente (saldo_atual = crédito - débito). Também testar se saldo atual é suficiente para realizar o saque, confirmando a operação, caso positivo, e negando a operação, caso negativo, mostrando a mensagem 'Saldo insuficiente'. No final, deverá exibir o saldo atualizado de cada cliente.
 """
 saldo=[]
 for i in range(6):

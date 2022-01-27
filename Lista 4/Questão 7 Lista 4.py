@@ -1,11 +1,9 @@
 """
 QUESTAO 7 LISTA 4
-A prefeitura de uma cidade deseja fazer uma pesquisa para coletar dados sobre o
-sal�rio e n�mero de filhos de cada habitante. Fa�a um algoritmo para ler os dados de
-5 habitantes e escrever:
-a) M�dia de sal�rio da popula��o
-b) M�dia do n�mero de filhos
-c) Percentual de pessoas com sal�rio menor que R$ 1000,00.
+A prefeitura de uma cidade deseja fazer uma pesquisa para coletar dados sobre o salário e número de filhos de cada habitante. Faça um algoritmo para ler os dados de 5 habitantes e escrever:
+a) Média de salário da população
+b) Média do número de filhos
+c) Percentual de pessoas com salário menor que R$ 1000,00.
 """
 Dados,MenoresQue1000=[[],[]],0
 for i in range(4):
