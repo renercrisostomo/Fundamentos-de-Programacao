@@ -42,9 +42,9 @@ dados = []
 print("\nAdicione os resultados no formato: Time1, Time2, Gols1, Gols2")
 
 for jogo in range(numjogos):
-    resultado = input(f"Resultado do Jogo {jogo + 1}: ").replace(" ","").split(",")
-    adicionarDados(resultado[0], int(resultado[2]), int(resultado[3]))
-    adicionarDados(resultado[1], int(resultado[3]), int(resultado[2]))
+    Time1, Time2, Gols1, Gols2 = input(f"Resultado do Jogo {jogo + 1}: ").replace(" ","").split(",")
+    adicionarDados(Time1, int(Gols1), int(Gols2))
+    adicionarDados(Time2, int(Gols2), int(Gols1))
 
 #Adicionando Gols Avarage
 for i in range(len(dados)):
