@@ -4,8 +4,5 @@ Fazer um algoritmo para ler dois números inteiros e trocar seus valores (ex.: A
 """
 A = int(input("Digite o valor de A: "))
 B = int(input("Digite o valor de B: "))
-C = A
-A = B
-B = C
-print(f"A = {A}")
-print(f"B = {B}")
+A, B = B, A
+print(f"A = {A} \nB = {B}")
