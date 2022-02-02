@@ -22,8 +22,7 @@ def adicionarDados(nome, marcados, sofridos):
         if dados[posicao][0] == nome:
             linha = posicao
             break
-        
-    if 'linha' not in locals():
+    else:
         dados.append([nome,0,0,0,0,0,0])
         linha = -1
     
@@ -43,7 +42,7 @@ dados = []
 print("\nAdicione os resultados no formato: Time1, Time2, Gols1, Gols2")
 
 for jogo in range(numjogos):
-    resultado = ((input(f"Resultado do Jogo {jogo + 1}: ")).replace(" ","")).split(",")
+    resultado = input(f"Resultado do Jogo {jogo + 1}: ").replace(" ","").split(",")
     adicionarDados(resultado[0], int(resultado[2]), int(resultado[3]))
     adicionarDados(resultado[1], int(resultado[3]), int(resultado[2]))
 
