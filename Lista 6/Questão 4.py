@@ -16,7 +16,7 @@ Exemplo: (São Paulo, Milan, 3, 2) que foi o placar da vitória que deu ao São 
 
 def adicionarDados(nome, marcados, sofridos):
     #Calcula e adiciona os pontos na tabela de dados
-    #[nome, pontosGol, golsMarcados, golsSofridos, saldoGols, vitorias, golAvarage]
+    #[nome, pontosGanhos, golsMarcados, golsSofridos, saldoGols, vitorias, golAvarage]
 
     #Seleciona o time nos dados ou adiciona se não existir
     for posicao in range(len(dados)):
@@ -29,10 +29,10 @@ def adicionarDados(nome, marcados, sofridos):
     
     #Calculando todos os pontos
     if marcados > sofridos:
-        dados[linha][1] += 2  #2 Pontos de Gol
+        dados[linha][1] += 2  #2 Pontos ganhos
         dados[linha][5] += 1  #Vitoria
     elif marcados == sofridos:
-        dados[linha][1] += 1  #1 Ponto de Gol
+        dados[linha][1] += 1  #1 Ponto ganho
     
     dados[linha][2] += marcados  #Gols Marcados
     dados[linha][3] += sofridos  #Gols Sofridos
@@ -58,11 +58,11 @@ print("\n[Nome, PG, GM, GS, S, V, GA]")
 for linha in range(len(dados)):
     print(dados[linha])
 
-#Classificação: pontos ganhos (PG), saldo de gols (S) e gols marcados (GM)
+#Classificação:
 print("\nClassificacao:")
-colunas = [1, 4, 2]  #(PG, S, GM)
+colunas = [1, 4, 2]  #(pontosGanhos, saldoGols, golsMarcados)
 
-#Checa de um em um se o cada elemento é maior
+#Compara de um em um cada elemento com os times já classificados
 for time in range(len(dados)):
     for linha in range(time):
         for elem in range(len(colunas)):
