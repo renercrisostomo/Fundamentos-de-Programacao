@@ -1,6 +1,6 @@
 # Fundamentos de Programacao
- Repositorio para as listas em Python da disciplina Fundamentos da Programação do curso Ciências da computação
+ Repositório de todas as atividades da disciplina Fundamentos da Programação do curso Ciências da computação
 
-Observação:
-Apartir da lista 5 comecei a fazer os programas em Python ao inves de C e refiz as listas antigas para Python.
-Você pode ver as listas feitas em C na pasta Listas antigas em C
+**Observação:**
+Com o tempo substituí todas as listas de linguagem C para Python.
+Você pode ver como estavam as listas na pasta: Listas antigas em C.
