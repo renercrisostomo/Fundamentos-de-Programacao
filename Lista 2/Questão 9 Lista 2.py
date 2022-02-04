@@ -9,11 +9,11 @@ Caso contrário, exiba "Operação Inválida".
 """
 n = []
 for i in range(2):
-    n.append(int(input(f"Numero {i+1} = ")))
+    n.append(int(input(f"Numero {i + 1} = ")))
 operacao = {
-    "+": n[0]+n[1],
-    "-": n[0]-n[1],
-    "*": n[0]*n[1],
-    "/": n[0]/n[1]
+    "+": n[0] + n[1],
+    "-": n[0] - n[1],
+    "*": n[0] * n[1],
+    "/": n[0] / n[1]
 }
 print(f"Resultado = {operacao[input('Operacao = ')]}")

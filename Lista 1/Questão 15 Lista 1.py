@@ -5,5 +5,5 @@ Faça um algoritmo para calcular e imprimir o An de uma P.G. (Progressão Geomé
 a1 = int(input("Digite o valor de a1: "))
 q = int(input("Digite o valor de q: "))
 n = int(input("Digite o valor de n: "))
-An = a1*q**(n-1)
+An = a1 * q ** (n - 1)
 print(f"An = {An}")

@@ -8,20 +8,20 @@ Construa um algoritmo para ler salarios de 10 funcionários de uma empresa e dep
 	  igual a R$ 2.000 – descontar 10% maior que R$ 2.000 – descontar 15%)
 	- salário liquido a receber
 """
-salario=[]
+salario = []
 for i in range(10):
 	salario.append(int(input(f"Pessoa {i}: \n\tSalario= ")))
 
-print(f"\n\nMaior salario = {max(salario)}\nMenor salario = {min(salario)}\n\nMedia salarial = {sum(salario)/len(salario)}\n")
+print(f"\n\nMaior salario = {max(salario)}\nMenor salario = {min(salario)}\n\nMedia salarial = {sum(salario) / len(salario)}\n")
 print("\nImposto de Renda:")
 for i in range(10):
 	print(f"\n\tPessoa {i}: ")
-	if salario[i]>2000:
+	if salario[i] > 2000:
 		print("descontar 15%")
-		salario[i]=salario[i]*75/100
-	elif salario[i]>1500:
+		salario[i] = salario[i] * 75 / 100
+	elif salario[i] > 1500:
 		print("descontar 10%")
-		salario[i]=salario[i]*90/100
+		salario[i] = salario[i] * 90 / 100
 	else: print("isento")
 
 print("\n\nSalario liquido:")

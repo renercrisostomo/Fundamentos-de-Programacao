@@ -5,16 +5,16 @@ obedecer ao seguinte critério: (media maior ou igual a 7, “aprovado”; entre
 """
 aluno = []
 for a in range(len(aluno)):
-	print(f"\nAluno(a) {a+1}:")
+	print(f"\nAluno(a) {a + 1}:")
 	for i in range(3):
-		aluno[a].append(float(input(f"\tNota {i+1} = ")))
+		aluno[a].append(float(input(f"\tNota {i + 1} = ")))
 
 for a in range(len(aluno)):
-	print(f"\nAluno(a) {a+1}:")
-	media = (aluno[a][0]+aluno[a][1]+aluno[a][2])/3
+	print(f"\nAluno(a) {a + 1}:")
+	media = (aluno[a][0] + aluno[a][1] + aluno[a][2]) / 3
 	if media >= 7:
 		situacao = " --- Aprovado(a)"
-	elif media >=4:
+	elif media >= 4:
 		situacao = " --- AF"
 	else:
 		situacao = " --- Reprovado(a)"

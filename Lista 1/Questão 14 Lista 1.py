@@ -5,5 +5,5 @@ Faça um algoritmo que calcule e imprima o An de uma P.A. (Progressão Aritméti
 a1 = int(input("Digite o valor de a1: "))
 n = int(input("Digite o valor de n: "))
 r = int(input("Digite o valor de r: "))
-An = a1+(n-1)*r
+An = a1 + (n - 1) * r
 print(f"An = {An}")

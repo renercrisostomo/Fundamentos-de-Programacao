@@ -13,9 +13,10 @@ Exemplo: (São Paulo, Milan, 3, 2) que foi o placar da vitória que deu ao São 
 
 (b) Com os mesmos dados do item (a), imprima a classificação dos times no campeonato (do primeiro para o último). A classificação é pelo número de pontos ganhos (PG) e em segundo lugar pelo saldo de gols (S). Se houver empate segundo os dois critérios, classifique os times envolvidos pelo maior número de gols marcados no campeonato.
 """
-#Linhas de Dados:[nome, pontosGol, golsMarcados, golsSofridos, saldodeGols, vitorias, golAvarage]
+
 def adicionarDados(nome, marcados, sofridos):
-    #Calcula e adiciona os dados na tabela com base no resultado
+    #Calcula e adiciona os pontos na tabela de dados
+    #[nome, pontosGol, golsMarcados, golsSofridos, saldoGols, vitorias, golAvarage]
 
     #Seleciona o time nos dados ou adiciona se não existir
     for posicao in range(len(dados)):
@@ -23,26 +24,26 @@ def adicionarDados(nome, marcados, sofridos):
             linha = posicao
             break
     else:
-        dados.append([nome,0,0,0,0,0,0])
+        dados.append([nome, 0, 0, 0, 0, 0, 0])
         linha = -1
     
     #Calculando todos os pontos
     if marcados > sofridos:
-        dados[linha][1] += 2 #2 Pontos de Gol
-        dados[linha][5] += 1 #Vitoria
+        dados[linha][1] += 2  #2 Pontos de Gol
+        dados[linha][5] += 1  #Vitoria
     elif marcados == sofridos:
-        dados[linha][1] += 1 #1 Ponto de Gol
+        dados[linha][1] += 1  #1 Ponto de Gol
     
-    dados[linha][2] += marcados #Gols Marcados
-    dados[linha][3] += sofridos #Gols Sofridos
-    dados[linha][4] += marcados - sofridos #Saldo de Gols
+    dados[linha][2] += marcados  #Gols Marcados
+    dados[linha][3] += sofridos  #Gols Sofridos
+    dados[linha][4] += marcados - sofridos  #Saldo de Gols
 
 numjogos = int(input("\nInsira o numero de jogos: "))
 dados = []
 print("\nAdicione os resultados no formato: Time1, Time2, Gols1, Gols2")
 
 for jogo in range(numjogos):
-    Time1, Time2, Gols1, Gols2 = input(f"Resultado do Jogo {jogo + 1}: ").replace(" ","").split(",")
+    Time1, Time2, Gols1, Gols2 = input(f"Resultado do Jogo {jogo + 1}: ").replace(" ", "").split(",")
     adicionarDados(Time1, int(Gols1), int(Gols2))
     adicionarDados(Time2, int(Gols2), int(Gols1))
 
@@ -59,7 +60,7 @@ for linha in range(len(dados)):
 
 #Classificação: pontos ganhos (PG), saldo de gols (S) e gols marcados (GM)
 print("\nClassificacao:")
-colunas = [1, 4, 2] #(PG, S, GM)
+colunas = [1, 4, 2]  #(PG, S, GM)
 
 #Checa de um em um se o cada elemento é maior
 for time in range(len(dados)):

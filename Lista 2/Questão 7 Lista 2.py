@@ -5,7 +5,7 @@ Escreva um algoritmo para ler um número inteiro e verifique se o número corres
 mes = ["Janeiro", "Fevereiro", "Marco", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
 
 try:
-    print(mes[int(input("Numero do mes = "))-1])
+    print(mes[int(input("Numero do mes = ")) - 1])
 except:
     print("Mes Invalido")
 

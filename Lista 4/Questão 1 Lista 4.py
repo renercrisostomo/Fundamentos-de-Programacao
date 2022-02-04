@@ -6,8 +6,8 @@ calcule e escreva o custo total da compra. OBS: experimentar com menos de 12 e c
 """
 macas=int(input("Numero de Macas: "))
     
-if macas<12:
-	custo=1.30*macas
+if macas < 12:
+	custo = 1.30 * macas
 else:
-	custo=macas
+	custo = macas
 print(f"\nCusto = R$: {custo}")

@@ -8,15 +8,15 @@ de 5,0 a 6,9  | C
 de 7,0 a 8,9  | B
 de 9,0 a 10,0 | A
 """
-media=input("Media = ")
-media=float(media)
-if media>10 or media<0:
+media = input("Media = ")
+media = float(media)
+if media > 10 or media < 0:
     print("Por favor, insira a media com numeros de 0 a 10 e tente novamente.")
-elif media>=9:
+elif media >= 9:
     print("Conceito: A")
-elif media>=7:
+elif media >= 7:
     print("Conceito: B")
-elif media>=5:
+elif media >= 5:
     print("Conceito: C")
 else:
     print("Conceito: D")

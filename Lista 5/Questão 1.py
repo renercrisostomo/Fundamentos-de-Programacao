@@ -6,11 +6,11 @@ from random import randint
 
 aleatorio = []
 for posicoes in range(10):
-    aleatorio.append(randint(1,99))
+    aleatorio.append(randint(1, 99))
 print(aleatorio)
 
 aleatorio.sort()
 print(aleatorio)
 
-aleatorio.sort(reverse=True)
+aleatorio.sort(reverse = True)
 print(aleatorio)
