@@ -1,4 +1,4 @@
-# Fundamentos de Programacao
+# Fundamentos de Computação
  Repositório com todas as minhas atividades da disciplina Fundamentos da Programação do curso Ciências da computação
 
 **Observação:**
