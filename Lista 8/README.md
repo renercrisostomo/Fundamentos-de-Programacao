@@ -2,7 +2,7 @@
 
 **Questão 1**
 
-  Escreva uma função recursiva em python para mostrar a série fibonacci até o 12o. termo.
+  Escreva uma função recursiva em python para mostrar a série fibonacci até o 12º. termo.
 
 **Questão 2**
 
@@ -25,7 +25,7 @@
 
 a) De quem foi a melhor volta da prova e em que volta;
 
-b) Classificação final em ordem (1o. o campeão);
+b) Classificação final em ordem (1º. o campeão);
 
 c) Qual foi a volta com a média mais rápida.
 
