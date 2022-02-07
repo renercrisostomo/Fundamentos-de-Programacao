@@ -15,32 +15,27 @@ matriz=[[], [], []]
 
 def qmagico(matriz):
     #Verifica se é um quadrado magico
-    somaReferencia = 0
-    for itens in range(3):  #Usando a soma da linha 1 como referencia
-        somaReferencia += matriz[0][itens]
 
-    #Verifica a soma das linhas e colunas
-    for sequencia in range(3):
-        soma1 = soma2 = 0
+    somaRef = sum(matriz[0])
+    for i in range(3):
+        soma = 0
         for itens in range(3):
-            soma1 += matriz[sequencia][itens]  #Somando os itens da linha
-            soma2 += matriz[itens][sequencia]  #Somando os itens da coluna
-        if soma1 != somaReferencia or soma2 != somaReferencia:
+            soma += matriz[itens][i]  #Soma coluna
+        if soma != somaRef  or somaRef != sum(matriz[i]):
             return False
 
-    #Verifica a soma das diagonais
-    soma1 = soma2 = 0
-    for sequencia in range(3):
-        soma1 += matriz[sequencia][sequencia]  #Somando os itens da diag principal
-        soma2 += matriz[sequencia][ -(sequencia + 1)]  #Somando os itens da diag secundaria
-    if soma1 != somaReferencia or soma2 != somaReferencia:
+    soma = soma2 = 0
+    for i in range(3):
+        soma += matriz[i][i]  #Soma diag principal
+        soma2 += matriz[i][ -(i + 1)]  #Soma diag secundaria
+    if soma != somaRef  or somaRef != soma2:
         return False
     return True
 
-#Adicionando itens aleatorios
 for linha in range(3):
     for itens in range(3):
         matriz[linha].append(randint(1, 99))
+        
 for linha in range(3):  #Mostra a matriz
     print(matriz[linha])
 

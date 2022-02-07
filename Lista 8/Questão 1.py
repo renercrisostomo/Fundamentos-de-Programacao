@@ -1,9 +1,11 @@
 """
 QUESTAO 1 LISTA 8
-Escreva uma função recursiva em python para mostrar a série fibonacci até o 12o. termo.
+Escreva uma função recursiva em python para mostrar a série fibonacci até o 12º termo.
 """
-
-fibonacci = [1, 1]  #Considerando 1 como a 1ª posicao
-for posicao in range(2, 20):
-    fibonacci.append(fibonacci[-1] + fibonacci[-2])
-print(fibonacci)
+def fibonacci(n):
+    if n < 20:
+        lista.append(lista[-1] + lista[-2])
+        fibonacci(n + 1)
+        return lista
+lista = [1, 1]  #Considerando 1 como a 1ª posicao
+print(fibonacci(2))
