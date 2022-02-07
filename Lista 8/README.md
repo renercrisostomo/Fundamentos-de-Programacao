@@ -22,14 +22,19 @@
 **Questão 5**
 
  Uma pista de Kart permite 10 voltas para cada um de 6 corredores. Faça um programa em python que leia os nomes e os tempos (em segundos) de cada volta de cada corredor e guarde as informações em uma matriz. Ao final, o programa deve informar:
+
 a) De quem foi a melhor volta da prova e em que volta;
+
 b) Classificação final em ordem (1o. o campeão);
+
 c) Qual foi a volta com a média mais rápida.
 
 **Questão 6**
 
  Faça um programa em python para ler uma matriz em python 3 x 3, informado pelo usuário, que represente uma turma de alunos com suas respectivas notas. Cada linha deverá conter o nome do aluno e duas notas. No final, o programa deverá emitir as seguintes informações:
+
 a) Nome dos alunos com suas médias;
+
 b) A maior e a menor média;
 
 
