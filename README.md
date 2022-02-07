@@ -1,5 +1,5 @@
 # Fundamentos de Programação
- Repositório com todas as minhas atividades da disciplina Fundamentos da Programação do curso Ciências da computação
+ Repositório com todas as minhas atividades da disciplina Fundamentos de Programação do curso Ciências da computação
 
 **Observação:**
 Com o tempo substituí todas as listas de linguagem C para Python.
