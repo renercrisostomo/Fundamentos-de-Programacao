@@ -54,28 +54,15 @@ for i in range(len(dados)):
     else:
         dados[i][6] = round(dados[i][2] / dados[i][3], 1)
 
-print("\n[Nome, PG, GM, GS, S, V, GA]") 
+print("\n[Nome, PG, GM, GS, S, V, GA]")
 for linha in range(len(dados)):
     print(dados[linha])
 
-#Classificação:
+#Classificação em: pontosGanhos, saldoGols, golsMarcados
 print("\nClassificacao:")
-colunas = [1, 4, 2]  #(pontosGanhos, saldoGols, golsMarcados)
-
-#Compara de um em um cada elemento com os times já classificados
-for time in range(len(dados)):
-    for linha in range(time):
-        for elem in range(len(colunas)):
-            if dados[time][colunas[elem]] > dados[linha][colunas[elem]]:
-                dados.insert(linha, dados[time]) 
-                dados.pop(time + 1)
-                linha = time  #encerra o for para classificar o proximo time
-                break
-            elif dados[time][colunas[elem]] < dados[linha][colunas[elem]]:
-                dados.insert(linha + 1, dados[time]) 
-                dados.pop(time + 1)
-                linha = time  #encerra o for para classificar o proximo time
-                break
+colunas = [2, 4, 1]
+for coluna in range(len(colunas)):
+    dados.sort(key=lambda i: i[(coluna)], reverse=True)
 
 print("\n   [Nome, PG, GM, GS, S, V, GA]")
 for linha in range(len(dados)):

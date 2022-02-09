@@ -4,7 +4,6 @@ Escreva uma função em python para calcular e informar o MDC (Máximo Divisor C
 """
 from math import factorial
 
-
 def mdc(lista):
     return factorial(lista)
 
