@@ -21,13 +21,13 @@ def qmagico(matriz):
         soma = 0
         for itens in range(3):
             soma += matriz[itens][i]  #Soma coluna
-        if soma != somaRef  or somaRef != sum(matriz[i]):
+        if soma != somaRef  or somaRef != sum(matriz[i]):  #Soma linha
             return False
 
     soma = soma2 = 0
     for i in range(3):
-        soma += matriz[i][i]  #Soma diag principal
-        soma2 += matriz[i][ -(i + 1)]  #Soma diag secundaria
+        soma += matriz[i][i]  #Soma diagonal principal
+        soma2 += matriz[i][ -(i + 1)]  #Soma diagonal secundaria
     if soma != somaRef  or somaRef != soma2:
         return False
     return True
