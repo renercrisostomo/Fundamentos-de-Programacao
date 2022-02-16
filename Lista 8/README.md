@@ -1,4 +1,4 @@
-# Lista 8
+# Lista 8 (Não finalizada)
 
 **Questão 1**
 
