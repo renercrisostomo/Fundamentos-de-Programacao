@@ -2,7 +2,7 @@
 QUESTAO 4 LISTA 7
 Ler um formato de número inteiro e verificar se o número corresponde a uma data válida no calendário. Em seguida, escrever "Data Válida, 10 de julho de 2020, p.ex"; senão escrever uma mensagem "Data Inválida".
 """
-data = input('Digite uma data no formato DIA/MÊS/ANO: ').split('/')
+data = input('Digite uma data no formato DIA/MÊS/ANO: ').replace(" ", "").split("/")
 
 def data_existe(dia, mes, ano):
     def bissexto(ano):
