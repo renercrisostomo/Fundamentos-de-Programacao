@@ -1,2 +1,4 @@
 # Fundamentos de Programacao em C
- Listas de atividades em C da disciplina Fundamentos da Programação do curso Ciências da computação 
+ Listas antigas em C da disciplina Fundamentos da Programação
+ 
+ Apartir da lista 5, por pedido do professor, todas as atividades foram feitas em python.
